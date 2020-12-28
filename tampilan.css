@@ -1,0 +1,157 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-family: verdana, arial;
+	font-size: 12px;
+	background: #333333;
+}
+
+#wraper {
+	width: 900px;
+	border: 10px solid #fff;
+	background: #fff;
+	margin: 10px auto;
+}
+
+#atas {
+	width: 900px;
+	height: 148px;
+	background: url('images/header.png') no-repeat;
+}
+
+#news {
+	width: 900px;
+	height: 16px;
+	padding: 5px 0;
+	background: url('images/bgmarque.png') repeat-x;
+}
+
+
+
+#kiri {
+	width: 220px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+#clear-fix {
+	clear: both;
+}
+
+#footer {
+	width: 900px;
+	height: 16px;
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	background: #99cc00;
+}
+
+/* box */
+.box {
+	width: 200px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0px 5px rgba(0,0,0,.3);
+	margin-top: 10px;
+}
+
+.box .link {
+	list-style:none;
+}
+
+.box .link a {
+	text-decoration: none;
+	color: #999;
+	padding: 5px 0px 5px 20px;
+	background: url('images/faveg.png') 0px 5px no-repeat;
+	display: block;
+}
+
+.box .link a:hover {
+	color: #99cc00;
+}
+
+/* menu */
+.box h1 {
+	padding: 5px;
+	display: block;
+	background: black;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li {
+	float: none;
+}
+
+.menu ul li a {
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 7px 0;
+	color: #000;
+}
+
+.menu ul li a:hover{
+	border-left: 3px solid #000;
+	padding-left: 10px;
+	color: #99cc00;
+	background: #d8d8d8;
+}
+
+.menu ul li a.active {
+	border-left: 3px solid #000;
+	padding-left: 10px;
+}
+
+/* typografi */
+
+a {
+	text-decoration: none;
+	color: #ff0ee1;
+}
+
+a:hover {
+	color: #000;
+}
+
+.gambar {
+	width: 130px;
+	height: 190px;
+	padding: 5px;
+	background: #f0f8ff;
+	margin-right: 5px;
+	border: 1px solid #bde0ff;
+	box-shadow: 0 0px 5px rgba(0,0,0,0.3);
+}
+
+h1,h2,h3,h4,h5 {
+	color: #99cc00;
+}
+
+h1 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+p {
+		line-height: 20px;
+		text-align: justify;
+}
